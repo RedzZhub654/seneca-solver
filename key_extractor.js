@@ -31,7 +31,7 @@ request.onsuccess = (event) => {
         link.click();
         document.body.removeChild(link);
 
-        console.log("Download complete. You can now close this tab.");
+        console.log("Completed the download. You can now close this tab.");
         console.log("Important: Treat this file as a password and do not share it with anyone, otherwise they can access your Seneca account.");
     };
 
